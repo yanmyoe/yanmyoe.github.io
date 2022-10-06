@@ -1,0 +1,5 @@
+(1) Shop folder
+(2) images/pages/index.html
+(3) images => all images to use in project
+(4) pages => about.html/products.html/contact.html
+(5) index.html => image/some texts
