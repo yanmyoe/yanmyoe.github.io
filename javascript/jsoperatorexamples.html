@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Operators Examples</title>
+</head>
+<body>
+        <h1>JS Operator Examples </h1>
+        <script>
+                    // Find total and average of 3 subjects
+                    //1.input
+                    // 3 subjects => subject1/subject2/subject3
+                    //2.process => total=subject1+subject2+subject3
+                    // average=total/3
+                    //3.output => total , average 
+               //1. input
+                let subject1=parseInt(prompt("Enter subject1 Mark: "));
+                let subject2=parseInt(prompt("Enter subject2 Mark: "));
+                let subject3=parseInt(prompt("Enter subject3 Mark: "));
+              //2. process
+                let total=subject1 + subject2 + subject3 ;
+                let average = total/3 ;
+                // 3. output
+                console.log("Subject1: ", subject1 );
+                console.log("Subject2: ", subject2 );
+                console.log("Subjec3: ", subject3 );
+                console.log("Total: ", total);
+                console.log("Average: ", average.toFixed(0) );
+        </script>
+</body>
+</html>

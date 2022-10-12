@@ -1,0 +1,10 @@
+
+
+(1) input  => memory => variable name => 
+   a= 5
+   b=10
+   c=a+b 
+   c=15
+   user_name="Mg Mg"
+(2) process => business logic => 
+(3) output => 
